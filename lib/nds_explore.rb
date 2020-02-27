@@ -7,8 +7,12 @@ def pretty_print_nds(nds)
   require 'pp'
   pp nds
 end
+<<<<<<< HEAD
 # pretty_print_nds(directors_database)
 
+=======
+pretty_print_nds(directors_database)
+>>>>>>> 7a7b1fd3ffdf332523bf89321a6b22900257e289
 def print_first_directors_movie_titles
   
   movies_ar = directors_database[0][:movies]
